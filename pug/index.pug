@@ -1,0 +1,28 @@
+extends includes/layout.pug
+
+block variables
+    - var title = "Home";
+
+block content
+    // ================Home Banner Area =================
+    section.home_banner_area
+        .banner_inner
+            .container
+                .row
+                    .col-lg-6
+                        .home_left_img
+                            img(src='img/banner/home-left-1.png', alt='')
+                    .col-lg-6
+                        .banner_content
+                            h5 This is me
+                            h2 Travor James
+                            p
+                                | You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)
+                            a.banner_btn(href='#') Discover Now
+    // ================End Home Banner Area =================
+
+    include includes/about-sliders.pug
+    include includes/features.pug
+    include includes/my-projects.pug
+    include includes/testimonials.pug
+    include includes/latest-blogs.pug
