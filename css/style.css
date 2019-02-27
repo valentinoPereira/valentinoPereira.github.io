@@ -4263,5 +4263,8 @@ h6 {
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+footer .contact_info .info_item h6, footer .contact_info .info_item h6 a {
+  color: #ddd;
+}
 
 /*# sourceMappingURL=style.css.map */
