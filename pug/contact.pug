@@ -16,25 +16,29 @@ block content
 
     section.contact_area.p_120
       .container
-        #mapBox.mapBox(data-lat='40.701083', data-lon='-74.1522848', data-zoom='13', data-info='PO Box CT16122 Collins Street West, Victoria 8007, Australia.', data-mlat='40.701083', data-mlon='-74.1522848')
+        //- #mapBox.mapBox(data-lat='19.1154313', data-lon='72.8734737', data-zoom='13', data-info='Marol, Andheri East, Mumbai, Maharashtra', data-mlat='19.1154313', data-mlon='72.8734737')
         .row
-          .col-lg-3
+          .col-lg-4
             .contact_info#contactSection
               .info_item
                 i.lnr.lnr-home
                 h6 Mumbai, India
-                p Andheri East, Mumbai 400059, Maharashtra
+                p Marol, Andheri East, Mumbai 400059, Maharashtra
+          .col-lg-4
+            .contact_info#contactSection
               .info_item
                 i.lnr.lnr-phone-handset
                 h6
-                  a(href='#') (+91) 9167352916
+                  a(href='tel:+919167352916') (+91) 9167352916
                 p Mon to Fri 10am to 6 pm
+          .col-lg-4
+            .contact_info#contactSection
               .info_item
                 i.lnr.lnr-envelope
                 h6
-                  a(href='#') tino1000@live.com
+                  a(href='mailto:tino1000@live.com') tino1000@live.com
                 p Send us your query anytime!
-          .col-lg-9
+          //- .col-lg-9
             form#contactForm.row.contact_form(action='', method='post', novalidate='novalidate')
               .col-md-6
                 .form-group
